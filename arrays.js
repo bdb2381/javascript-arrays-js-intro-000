@@ -17,3 +17,7 @@ function destructivelyAddElementToEndOfArray(climbingRoutes_array, newRoute){
    climbingRoutes_array.push(newRoute)
    return climbingRoutes_array
 }
+
+function accessElementInArray(gear_array, index){
+  return gear_array[index]
+}
