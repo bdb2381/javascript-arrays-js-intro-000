@@ -19,7 +19,7 @@ function addElementToBeginningOfArray(chocolateBars, newBar){
   return newBars
 }
 
-function destructivelyAddElementToBeginningOfArray(){
+function destructivelyAddElementToBeginningOfArray(chocolateBars, newBar){
   chocolateBars.unshift("Tea Bar")
   return chocolateBars
 }
