@@ -18,7 +18,7 @@ Both functions take two parameters, an array and an element to add to the beginn
 function addElementToBeginningOfArray(chocolateBars, newBar){
   var newChocoBars = chocolateBars
   newChocoBars.unshift(newBar)
-  return newBars
+  return nenewChocoBarswBars
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, newBar){
