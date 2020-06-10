@@ -10,7 +10,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars_array, newBar){
 }
 
 function addElementToEndOfArray(climbingRoutes_array, newRoute){
-
+  return [...climbingRoutes_array, newRoute]
 }
 
 function destructivelyAddElementToEndOfArray(){
