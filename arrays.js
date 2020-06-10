@@ -21,3 +21,8 @@ function destructivelyAddElementToEndOfArray(climbingRoutes_array, newRoute){
 function accessElementInArray(gear_array, index){
   return gear_array[index]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.shift()
+  return array
+}
