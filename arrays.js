@@ -15,7 +15,7 @@ Both functions take two parameters, an array and an element to add to the beginn
    */
 
 function addElementToBeginningOfArray(chocolateBars, newBar){
-  var newBars =chocolateBars.unshift("Tea Bar")
+  var newBars = chocolateBars.unshift("Tea Bar")
   return newBars
 }
 
