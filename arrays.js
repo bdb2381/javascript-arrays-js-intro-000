@@ -6,6 +6,7 @@ var ingredient5 = "tomato"
 var ingredient6 = "garlic"
 
 var chocolateBars = [ "snickers", "hundred grand", "kitkat",  "skittles" ];
+var newBar = "Tea Bar"
 /*
 Both functions take two parameters, an array and an element to add to the beginning of the array,
  and both functions should add the element to the beginning of the array and then return the whole array.
@@ -15,7 +16,8 @@ Both functions take two parameters, an array and an element to add to the beginn
    */
 
 function addElementToBeginningOfArray(chocolateBars, newBar){
-  var newBars = chocolateBars.unshift("Tea Bar")
+  var newChocoBars = chocolateBars
+  newChocoBars.unshift(newBar)
   return newBars
 }
 
