@@ -12,15 +12,26 @@ Both functions take two parameters, an array and an element to add to the beginn
   that's passed in; addElementToBeginningOfArray, on the other hand, should return a new array and not
    modify the original.
    */
-var chocolateBars = [ "snickers", "hundred grand", "kitkat",  "skittles" ];
-var newBar = "Tea Bar"
+//var chocolateBars = [ "snickers", "hundred grand", "kitkat",  "skittles" ]; //yummy array of bars
+//var newBar = "Tea Bar"    //new type of bar. very cutting edge
 
 
-function addElementToBeginningOfArray(chocolateBars, newBar){
+function addElementToBeginningOfArray(chocolateBars, newBar){   //return the new Bar but keep the old bars in a seperate list as well 
   return [newBar, ...chocolateBars]
 }
 
-function destructivelyAddElementToBeginningOfArray(chocolateBars, newBar){
+function destructivelyAddElementToBeginningOfArray(chocolateBars, newBar){  //return a new array that is permenant blend of everything
   chocolateBars.unshift(newBar)
   return chocolateBars
 }
+
+function addElementToEndOfArray(){
+  
+} 
+
+function destructivelyAddElementToEndOfArray(){
+  
+}
+
+
+
