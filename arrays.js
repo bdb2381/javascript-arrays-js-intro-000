@@ -16,7 +16,7 @@ Both functions take two parameters, an array and an element to add to the beginn
 //var newBar = "Tea Bar"    //new type of bar. very cutting edge
 
 
-function addElementToBeginningOfArray(chocolateBars, newBar){   //return the new Bar but keep the old bars in a seperate list as well 
+function addElementToBeginningOfArray(chocolateBars, newBar){   //return the new Bar but keep the old bars in a seperate list as well
   return [newBar, ...chocolateBars]
 }
 
@@ -26,12 +26,9 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, newBar){  //re
 }
 
 function addElementToEndOfArray(){
-  
-} 
 
-function destructivelyAddElementToEndOfArray(){
-  
 }
 
+function destructivelyAddElementToEndOfArray(){
 
-
+}
