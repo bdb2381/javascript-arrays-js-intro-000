@@ -14,5 +14,5 @@ function addElementToEndOfArray(climbingRoutes_array, newRoute){
 }
 
 function destructivelyAddElementToEndOfArray(climbingRoutes_array, newRoute){
-  climbingRoutes_array.push(newRoute)
+  return climbingRoutes_array.push(newRoute)
 }
