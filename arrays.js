@@ -1,15 +1,15 @@
 
 
-function addElementToBeginningOfArray(chocolateBars, newBar){   //return the new Bar but keep the old bars in a seperate list as well
-  return [newBar, ...chocolateBars]
+function addElementToBeginningOfArray(chocolateBars_array, newBar){   //return the new Bar but keep the old bars in a seperate list as well
+  return [newBar, ...chocolateBars_array]
 }
 
-function destructivelyAddElementToBeginningOfArray(chocolateBars, newBar){  //return a new array that is permenant blend of everything
-  chocolateBars.unshift(newBar)
-  return chocolateBars
+function destructivelyAddElementToBeginningOfArray(chocolateBars_array, newBar){  //return a new array that is permenant blend of everything
+  chocolateBars_array.unshift(newBar)
+  return chocolateBars_array
 }
 
-function addElementToEndOfArray(){
+function addElementToEndOfArray(climbingRoutes_array, newRoute){
 
 }
 
