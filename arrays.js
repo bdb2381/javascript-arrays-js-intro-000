@@ -1,4 +1,4 @@
-var chocolateBars_array = ["snickers", "mms", "peanut cups"]
+var chocolateBars = ["snickers", "mms", "peanut cups"]
 
 function addElementToBeginningOfArray(chocolateBars_array, newBar){   //return the new Bar but keep the old bars in a seperate list as well
   return [newBar, ...chocolateBars_array]
